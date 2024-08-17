@@ -6,21 +6,57 @@ body {
     display: none;
 }
 
-/* Style des boutons d'option pour s'assurer qu'ils prennent toute la largeur sur mobile */
+/* Style des boutons d'option */
 .option-button {
     width: 100%;
     font-size: 1rem;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.option-button:hover {
+    transform: translateY(-3px);
 }
 
 /* Ajustement pour les petits écrans */
 @media (max-width: 768px) {
     .option-button {
-        font-size: 1.2rem; /* Agrandir un peu les boutons pour les rendre plus faciles à cliquer */
+        font-size: 1.2rem;
         padding: 12px;
     }
 
     #quiz-container {
         padding: 16px;
+    }
+}
+
+/* Animation d'apparition pour le quiz container */
+#quiz-container {
+    animation: fadeInUp 0.8s ease-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Animation pour le score final */
+#result-modal .bg-white {
+    animation: zoomIn 0.5s ease-out forwards;
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
     }
 }

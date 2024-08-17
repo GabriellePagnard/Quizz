@@ -5,32 +5,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz Interactif</title>
+    <!-- Import de la police Google -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
 </head>
 
-<body class="bg-gray-100 flex justify-center items-center h-screen">
-    <div id="quiz-container" class="p-8 bg-white rounded shadow-lg text-center">
-        <h1 class="text-2xl font-bold mb-4">Quiz Interactif</h1>
-        <button id="start-quiz" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">Lancer le Quiz</button>
+<body class="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 flex justify-center items-center h-screen">
+    <div id="quiz-container" class="p-8 bg-white rounded-lg shadow-2xl text-center transform transition-all duration-500">
+        <h1 class="text-4xl font-bold text-gray-800 mb-4">Quiz Interactif</h1>
+        <button id="start-quiz" class="bg-gradient-to-r from-blue-500 to-purple-500 text-white font-semibold px-6 py-3 rounded-lg hover:scale-105 transform transition-all duration-300">Lancer le Quiz</button>
 
         <!-- Ajout d'une barre de progression pour le quiz -->
-        <div id="progress-bar-container" class="hidden w-full bg-gray-300 h-2 mt-4 mb-4 rounded">
-            <div id="progress-bar" class="bg-blue-600 h-2 rounded"></div>
+        <div id="progress-bar-container" class="hidden w-full bg-gray-300 h-2 mt-4 mb-4 rounded-full overflow-hidden">
+            <div id="progress-bar" class="bg-gradient-to-r from-blue-500 to-purple-500 h-2 transition-all duration-500 ease-out"></div>
         </div>
 
         <!-- Contenu du quiz (questions et options) -->
         <div id="quiz-content" class="hidden mt-4">
-            <div id="question" class="text-xl font-semibold mb-4"></div>
+            <div id="question" class="text-2xl font-semibold text-gray-800 mb-6"></div>
             <div id="options" class="grid grid-cols-1 gap-4"></div>
         </div>
     </div>
 
     <!-- Fenêtre modale pour afficher le score final -->
     <div id="result-modal" class="hidden fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
-        <div class="bg-white p-8 rounded shadow-lg text-center">
-            <h2 id="final-score" class="text-2xl font-bold mb-4"></h2>
-            <button id="replay-quiz" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">Rejouer</button>
+        <div class="bg-white p-8 rounded-lg shadow-2xl text-center transform transition-transform scale-75">
+            <h2 id="final-score" class="text-3xl font-bold text-gray-800 mb-4"></h2>
+            <button id="replay-quiz" class="bg-gradient-to-r from-blue-500 to-purple-500 text-white font-semibold px-6 py-3 rounded-lg hover:scale-105 transform transition-all duration-300">Rejouer</button>
         </div>
     </div>
 
