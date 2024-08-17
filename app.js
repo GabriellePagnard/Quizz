@@ -40,35 +40,31 @@ function displayQuestion() {
         const button = document.createElement('button');
         button.textContent = option;
         button.classList.add('option-button', 'bg-gray-200', 'px-4', 'py-2', 'rounded', 'hover:bg-gray-300');
-        button.addEventListener('click', () => checkAnswer(option, button));
+        button.addEventListener('click', (event) => checkAnswer(option, button, event));
+        button.addEventListener('touchstart', (event) => checkAnswer(option, button, event)); // Support tactile
         optionsElement.appendChild(button);
     });
 }
 
-function checkAnswer(selectedOption, button) {
+function checkAnswer(selectedOption, button, event) {
+    event.preventDefault();
     const correctAnswer = shuffledQuestions[currentQuestionIndex].correct_answer;
+
+    // Vérifier si la réponse est correcte
+    if (selectedOption === correctAnswer) {
+        button.classList.add('bg-green-500', 'text-white');
+        score++; // Incrémentation du score si la réponse est correcte
+    } else {
+        button.classList.add('bg-red-500', 'text-white');
+    }
 
     // Désactiver tous les boutons après avoir sélectionné une réponse
     document.querySelectorAll('.option-button').forEach(btn => {
         btn.disabled = true;
-    });
-
-    // Appliquer la couleur en fonction de la réponse avec un léger délai pour les appareils mobiles
-    setTimeout(() => {
-        if (selectedOption === correctAnswer) {
-            button.classList.add('bg-green-500', 'text-white');
-            score++; // Incrémentation du score si la réponse est correcte
-        } else {
-            button.classList.add('bg-red-500', 'text-white');
+        if (btn.textContent === correctAnswer) {
+            btn.classList.add('bg-green-500', 'text-white');
         }
-
-        // Montrer la bonne réponse même si la réponse donnée est incorrecte
-        document.querySelectorAll('.option-button').forEach(btn => {
-            if (btn.textContent === correctAnswer) {
-                btn.classList.add('bg-green-500', 'text-white');
-            }
-        });
-    }, 100); // Délai léger pour garantir l'application des styles
+    });
 
     // Attendre un moment avant de passer à la question suivante
     setTimeout(() => {
