@@ -4,7 +4,7 @@
 
 ## 📜 Présentation
 
-Bienvenue dans Quiz de Culture Générale ! Ce projet est une application web interactive et moderne qui propose un quiz de 20 questions aléatoires. Que vous soyez un amateur de culture générale ou que vous souhaitiez simplement vous divertir, ce quiz est fait pour vous !
+Bienvenue dans Quiz de Culture Générale ! Ce projet est une application web interactive et moderne qui propose un quiz de 20 questions aléatoires. Que vous soyez un amateur de culture générale ou que vous souhaitiez simplement vous divertir, ce quiz est fait pour vous ! Le Quiz adaptée à tous les appareils, y compris les mobiles ! 📱   
 
 <br>
 <br>
@@ -30,15 +30,7 @@ Voici à quoi ressemble l'application :
 
 ![screenshot ordinateur score](ressources/Screenshot_score.jpg)   
 
-![screenshot mobile demarrage](ressources/Screenshot_demarrage_mobile.jpg)   
-
-![screenshot mobile question](ressources/Screenshot_question_mobile.jpg)   
-
-![screenshot mobile mauvaise reponse](ressources/Screenshot_question_mobile_reponse_fausse.jpg)   
-
-![screenshot mobile reponse exacte](ressources/Screenshot_question_mobile_reponse_exacte.jpg)   
-
-![screenshot mobile score](ressources/Screenshot_score_mobile.jpg)   
+![screenshot mobile demarrage](ressources/Screenshot_demarrage_mobile.jpg) ![screenshot mobile question](ressources/Screenshot_question_mobile.jpg) ![screenshot mobile mauvaise reponse](ressources/Screenshot_question_mobile_reponse_fausse.jpg) ![screenshot mobile reponse exacte](ressources/Screenshot_question_mobile_reponse_exacte.jpg) ![screenshot mobile score](ressources/Screenshot_score_mobile.jpg)   
 
 <br>
 <br>
@@ -59,10 +51,10 @@ Pour l'utiliser : [Quiz 🎓](https://gabriellepagnard.github.io/Quizz/)
 
 ## 🔧 Technologies Utilisées
 
-- HTML5 : Structure de l'application   
-- CSS3 (avec TailwindCSS) : Mise en page réactive et moderne   
-- JavaScript : Logique du quiz et interactions   
-- JSON : Fichier de questions pour une gestion flexible   
+🖼️ HTML5 : Structure du projet   
+🎨 CSS3 avec TailwindCSS : Mise en page stylisée et responsive   
+🧠 JavaScript : Gestion de la logique du quiz   
+📜 JSON : Stockage des questions et réponses pour le quiz   
 
 <br>
 <br>
@@ -147,4 +139,11 @@ GitHub : [GabriellePagnard](https://github.com/GabriellePagnard)
 <br>
 <br>
 
-Merci d'avoir pris le temps de découvrir ce projet ! Si vous avez apprécié le quiz, n'hésitez pas à lui donner une étoile ⭐ sur GitHub. Votre soutien est grandement apprécié ! 🙏
+Avec ce quiz, testez vos connaissances tout en vous amusant ! 🚀🧠   
+
+<br>
+<br>
+
+Merci d'avoir pris le temps de découvrir ce projet !   
+Si vous avez apprécié le quiz, n'hésitez pas à lui donner une étoile ⭐ sur GitHub.   
+Votre soutien est grandement apprécié ! 🙏
