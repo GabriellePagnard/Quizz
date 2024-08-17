@@ -60,3 +60,8 @@ body {
         opacity: 1;
     }
 }
+
+/* Empêcher les délais tactiles sur mobile */
+.option-button {
+    touch-action: manipulation; /* Empêche le délai tactile de 300ms */
+}
