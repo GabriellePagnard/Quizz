@@ -1,0 +1,1002 @@
+[
+    {
+        "question": "Quelle est la couleur de la boîte noire dans les avions ?",
+        "options": ["Noire", "Grise", "Orange", "Rouge", "Bleue"],
+        "correct_answer": "Orange"
+    },
+    {
+        "question": "Combien de côtés a un triangle ?",
+        "options": ["4", "3", "5", "6", "2"],
+        "correct_answer": "3"
+    },
+    {
+        "question": "Quelle planète est connue comme la planète rouge ?",
+        "options": ["Mercure", "Saturne", "Mars", "Neptune", "Vénus"],
+        "correct_answer": "Mars"
+    },
+    {
+        "question": "Quel animal est le plus rapide sur terre ?",
+        "options": ["Lièvre", "Guépard", "Antilope", "Chèvre", "Écureuil"],
+        "correct_answer": "Guépard"
+    },
+    {
+        "question": "Quel fruit est considéré comme un légume en botanique ?",
+        "options": ["Banane", "Pomme", "Citrouille", "Fraise", "Raisin"],
+        "correct_answer": "Citrouille"
+    },
+    {
+        "question": "Combien de dents a un humain adulte moyen ?",
+        "options": ["20", "28", "32", "36", "40"],
+        "correct_answer": "32"
+    },
+    {
+        "question": "Quel est l'ingrédient principal du guacamole ?",
+        "options": ["Tomate", "Pomme de terre", "Avocat", "Courgette", "Chou-fleur"],
+        "correct_answer": "Avocat"
+    },
+    {
+        "question": "Quel est le plus petit pays du monde ?",
+        "options": ["Monaco", "Liechtenstein", "Saint-Marin", "Vatican", "Luxembourg"],
+        "correct_answer": "Vatican"
+    },
+    {
+        "question": "Quelle est la capitale de l'Australie ?",
+        "options": ["Sydney", "Melbourne", "Canberra", "Perth", "Brisbane"],
+        "correct_answer": "Canberra"
+    },
+    {
+        "question": "Quel est le métal le plus précieux au monde ?",
+        "options": ["Argent", "Platine", "Titane", "Or", "Rhodium"],
+        "correct_answer": "Rhodium"
+    },
+    {
+        "question": "Combien de côtés a un octogone ?",
+        "options": ["6", "8", "9", "12", "10"],
+        "correct_answer": "8"
+    },
+    {
+        "question": "Quelle est la capitale de l'Espagne ?",
+        "options": ["Barcelone", "Valence", "Séville", "Madrid", "Grenade"],
+        "correct_answer": "Madrid"
+    },
+    {
+        "question": "Quel légume donne des larmes quand on le coupe ?",
+        "options": ["Carotte", "Pomme de terre", "Oignon", "Ail", "Poivron"],
+        "correct_answer": "Oignon"
+    },
+    {
+        "question": "Quelle est la langue la plus parlée au monde ?",
+        "options": ["Anglais", "Espagnol", "Hindi", "Chinois mandarin", "Français"],
+        "correct_answer": "Chinois mandarin"
+    },
+    {
+        "question": "Quel pays a inventé le papier ?",
+        "options": ["Grèce", "Égypte", "Inde", "Chine", "Japon"],
+        "correct_answer": "Chine"
+    },
+    {
+        "question": "Quelle boisson est traditionnellement servie avec des sushis ?",
+        "options": ["Vodka", "Tequila", "Vin rouge", "Saké", "Bière"],
+        "correct_answer": "Saké"
+    },
+    {
+        "question": "Quelle est l'unité de mesure de la force ?",
+        "options": ["Joule", "Kelvin", "Mètre", "Newton", "Ampère"],
+        "correct_answer": "Newton"
+    },
+    {
+        "question": "Qui a peint 'La Joconde' ?",
+        "options": ["Pablo Picasso", "Vincent Van Gogh", "Michel-Ange", "Léonard de Vinci", "Salvador Dalí"],
+        "correct_answer": "Léonard de Vinci"
+    },
+    {
+        "question": "Quel animal est connu pour son rire ?",
+        "options": ["Hyène", "Perroquet", "Singe", "Loutre", "Dauphin"],
+        "correct_answer": "Hyène"
+    },
+    {
+        "question": "Quel est le plus grand océan du monde ?",
+        "options": ["Atlantique", "Indien", "Arctique", "Pacifique", "Antarctique"],
+        "correct_answer": "Pacifique"
+    },
+    {
+        "question": "Quelle est la principale langue parlée au Brésil ?",
+        "options": ["Espagnol", "Français", "Portugais", "Anglais", "Allemand"],
+        "correct_answer": "Portugais"
+    },
+    {
+        "question": "Combien d'années dure un cycle olympique ?",
+        "options": ["2 ans", "3 ans", "4 ans", "5 ans", "6 ans"],
+        "correct_answer": "4 ans"
+    },
+    {
+        "question": "Quel est l'animal national du Canada ?",
+        "options": ["Ours polaire", "Loup", "Castor", "Aigle", "Cerf"],
+        "correct_answer": "Castor"
+    },
+    {
+        "question": "Qui est le dieu du tonnerre dans la mythologie nordique ?",
+        "options": ["Loki", "Odin", "Thor", "Fenrir", "Freya"],
+        "correct_answer": "Thor"
+    },
+    {
+        "question": "Quel fruit est aussi appelé 'pomme d'amour' ?",
+        "options": ["Poire", "Cerise", "Pomme de terre", "Tomate", "Fraise"],
+        "correct_answer": "Tomate"
+    },
+    {
+        "question": "Quelle est la plus grande île du monde ?",
+        "options": ["Madagascar", "Groenland", "Nouvelle-Guinée", "Bornéo", "Hawaï"],
+        "correct_answer": "Groenland"
+    },
+    {
+        "question": "Qui a écrit 'Harry Potter' ?",
+        "options": ["Stephen King", "J.K. Rowling", "George R.R. Martin", "Agatha Christie", "J.R.R. Tolkien"],
+        "correct_answer": "J.K. Rowling"
+    },
+    {
+        "question": "Dans quel sport utilise-t-on un 'putter' ?",
+        "options": ["Tennis", "Cricket", "Golf", "Polo", "Rugby"],
+        "correct_answer": "Golf"
+    },
+    {
+        "question": "Quel est le plus grand mammifère terrestre ?",
+        "options": ["Rhinocéros", "Ours polaire", "Hippopotame", "Éléphant d'Afrique", "Girafe"],
+        "correct_answer": "Éléphant d'Afrique"
+    },
+    {
+        "question": "Quelle planète est la plus proche du soleil ?",
+        "options": ["Terre", "Vénus", "Mars", "Mercure", "Jupiter"],
+        "correct_answer": "Mercure"
+    },
+    {
+        "question": "Quelle est la capitale du Japon ?",
+        "options": ["Kyoto", "Tokyo", "Osaka", "Hiroshima", "Sapporo"],
+        "correct_answer": "Tokyo"
+    },
+    {
+        "question": "Quelle est la ville de naissance de William Shakespeare ?",
+        "options": ["Londres", "Édimbourg", "Stratford-upon-Avon", "Dublin", "Bath"],
+        "correct_answer": "Stratford-upon-Avon"
+    },
+    {
+        "question": "Quel oiseau est le symbole de la paix ?",
+        "options": ["Aigle", "Pigeon", "Colombe", "Canari", "Cygne"],
+        "correct_answer": "Colombe"
+    },
+    {
+        "question": "Quelle est la capitale de l’Italie ?",
+        "options": ["Milan", "Venise", "Naples", "Rome", "Florence"],
+        "correct_answer": "Rome"
+    },
+    {
+        "question": "Quel est le plus long fleuve du monde ?",
+        "options": ["Amazone", "Nil", "Yangzi Jiang", "Mississippi", "Rhin"],
+        "correct_answer": "Amazone"
+    },
+    {
+        "question": "Dans quel pays se trouve le Machu Picchu ?",
+        "options": ["Mexique", "Bolivie", "Pérou", "Chili", "Argentine"],
+        "correct_answer": "Pérou"
+    },
+    {
+        "question": "Combien y a-t-il de jours dans une année bissextile ?",
+        "options": ["365", "364", "366", "367", "363"],
+        "correct_answer": "366"
+    },
+    {
+        "question": "Quel est l'organe le plus grand du corps humain ?",
+        "options": ["Poumons", "Cœur", "Foie", "Peau", "Rein"],
+        "correct_answer": "Peau"
+    },
+    {
+        "question": "Quel est le nombre premier suivant immédiatement 7 ?",
+        "options": ["8", "9", "10", "11", "13"],
+        "correct_answer": "11"
+    },
+    {
+        "question": "Quel ingrédient donne au curry sa couleur jaune ?",
+        "options": ["Gingembre", "Piment", "Curcuma", "Paprika", "Ail"],
+        "correct_answer": "Curcuma"
+    },
+    {
+        "question": "Quelle est la capitale du Canada ?",
+        "options": ["Toronto", "Vancouver", "Ottawa", "Montréal", "Québec"],
+        "correct_answer": "Ottawa"
+    },
+    {
+        "question": "Quel est le plus petit os du corps humain ?",
+        "options": ["Radius", "Scapula", "Stapes (étrier)", "Fémur", "Ulna"],
+        "correct_answer": "Stapes (étrier)"
+    },
+    {
+        "question": "Quel métal est connu pour être liquide à température ambiante ?",
+        "options": ["Or", "Fer", "Mercure", "Argent", "Plomb"],
+        "correct_answer": "Mercure"
+    },
+    {
+        "question": "Quelle est la première planète à partir du Soleil ?",
+        "options": ["Vénus", "Jupiter", "Mercure", "Saturne", "Terre"],
+        "correct_answer": "Mercure"
+    },
+    {
+        "question": "Quelle couleur obtenez-vous en mélangeant du bleu et du jaune ?",
+        "options": ["Violet", "Orange", "Vert", "Marron", "Rose"],
+        "correct_answer": "Vert"
+    },
+    {
+        "question": "Quel fruit est traditionnellement utilisé pour produire le vin ?",
+        "options": ["Pomme", "Orange", "Raisin", "Cerise", "Poire"],
+        "correct_answer": "Raisin"
+    },
+    {
+        "question": "Quel est l'animal national de l'Australie ?",
+        "options": ["Kangourou", "Koala", "Émeu", "Dingo", "Wombat"],
+        "correct_answer": "Kangourou"
+    },
+    {
+        "question": "Quelle est la langue officielle du Brésil ?",
+        "options": ["Espagnol", "Anglais", "Portugais", "Italien", "Français"],
+        "correct_answer": "Portugais"
+    },
+    {
+        "question": "Qui a inventé le téléphone ?",
+        "options": ["Nikola Tesla", "Thomas Edison", "Alexander Graham Bell", "Albert Einstein", "Guglielmo Marconi"],
+        "correct_answer": "Alexander Graham Bell"
+    },
+    {
+        "question": "Quelle est la plus grande planète du système solaire ?",
+        "options": ["Vénus", "Terre", "Jupiter", "Saturne", "Mars"],
+        "correct_answer": "Jupiter"
+    },
+    {
+        "question": "Combien de couleurs y a-t-il dans un arc-en-ciel ?",
+        "options": ["5", "6", "7", "8", "9"],
+        "correct_answer": "7"
+    },
+    {
+        "question": "Quelle est la capitale de la Russie ?",
+        "options": ["Saint-Pétersbourg", "Novgorod", "Moscou", "Kiev", "Minsk"],
+        "correct_answer": "Moscou"
+    },
+    {
+        "question": "Quel sport est souvent appelé 'le roi des sports' ?",
+        "options": ["Tennis", "Rugby", "Football", "Cricket", "Basketball"],
+        "correct_answer": "Football"
+    },
+    {
+        "question": "Quel est l'océan le plus froid du monde ?",
+        "options": ["Pacifique", "Atlantique", "Arctique", "Indien", "Austral"],
+        "correct_answer": "Arctique"
+    },
+    {
+        "question": "Quel pays est appelé 'le pays du Soleil Levant' ?",
+        "options": ["Corée du Sud", "Japon", "Thaïlande", "Chine", "Inde"],
+        "correct_answer": "Japon"
+    },
+    {
+        "question": "Quelle étoile est au centre de notre système solaire ?",
+        "options": ["Alpha Centauri", "Sirius", "Lune", "Soleil", "Véga"],
+        "correct_answer": "Soleil"
+    },
+    {
+        "question": "Quel est le plus long os du corps humain ?",
+        "options": ["Tibia", "Radius", "Fémur", "Humérus", "Sternum"],
+        "correct_answer": "Fémur"
+    },
+    {
+        "question": "Quelle planète est connue pour ses anneaux ?",
+        "options": ["Jupiter", "Uranus", "Saturne", "Mars", "Vénus"],
+        "correct_answer": "Saturne"
+    },
+    {
+        "question": "Quel pays a inventé le papier-monnaie ?",
+        "options": ["Égypte", "Inde", "Grèce", "Chine", "Italie"],
+        "correct_answer": "Chine"
+    },
+    {
+        "question": "Quelle ville est surnommée 'La Grosse Pomme' ?",
+        "options": ["Los Angeles", "Chicago", "San Francisco", "New York", "Miami"],
+        "correct_answer": "New York"
+    },
+    {
+        "question": "Quelle boisson est faite principalement de feuilles infusées ?",
+        "options": ["Café", "Jus de raisin", "Lait", "Thé", "Soda"],
+        "correct_answer": "Thé"
+    },
+    {
+        "question": "Combien de continents y a-t-il sur Terre ?",
+        "options": ["5", "6", "7", "8", "4"],
+        "correct_answer": "7"
+    },
+    {
+        "question": "Quel pays a la plus grande population au monde ?",
+        "options": ["États-Unis", "Inde", "Chine", "Indonésie", "Brésil"],
+        "correct_answer": "Chine"
+    },
+    {
+        "question": "Quel est l'animal le plus grand du monde ?",
+        "options": ["Éléphant d'Afrique", "Cachalot", "Girafe", "Baleine bleue", "Ours polaire"],
+        "correct_answer": "Baleine bleue"
+    },
+    {
+        "question": "Quel est l'état le plus grand des États-Unis ?",
+        "options": ["Texas", "Californie", "Alaska", "New York", "Floride"],
+        "correct_answer": "Alaska"
+    },
+    {
+        "question": "Quelle est la capitale de l’Allemagne ?",
+        "options": ["Munich", "Hambourg", "Berlin", "Francfort", "Cologne"],
+        "correct_answer": "Berlin"
+    },
+    {
+        "question": "Dans quel pays peut-on visiter les pyramides de Gizeh ?",
+        "options": ["Mexique", "Pérou", "Égypte", "Inde", "Brésil"],
+        "correct_answer": "Égypte"
+    },
+    {
+        "question": "Quelle ville est célèbre pour son Colisée ?",
+        "options": ["Athènes", "Barcelone", "Rome", "Istanbul", "Lisbonne"],
+        "correct_answer": "Rome"
+    },
+    {
+        "question": "Quel gaz respirons-nous principalement dans l'air ?",
+        "options": ["Dioxyde de carbone", "Hélium", "Oxygène", "Azote", "Hydrogène"],
+        "correct_answer": "Azote"
+    },
+    {
+        "question": "Quelle est la capitale de la France ?",
+        "options": ["Lyon", "Marseille", "Paris", "Bordeaux", "Lille"],
+        "correct_answer": "Paris"
+    },
+    {
+        "question": "Combien de joueurs une équipe de football compte-t-elle sur le terrain ?",
+        "options": ["9", "10", "11", "12", "15"],
+        "correct_answer": "11"
+    },
+    {
+        "question": "Quelle est la langue officielle de la Suisse ?",
+        "options": ["Espagnol", "Russe", "Italien", "Français", "Plusieurs langues"],
+        "correct_answer": "Plusieurs langues"
+    },
+    {
+        "question": "Quel pays a donné naissance aux Jeux olympiques ?",
+        "options": ["Égypte", "Inde", "Italie", "Grèce", "Chine"],
+        "correct_answer": "Grèce"
+    },
+    {
+        "question": "Quel animal est surnommé 'le roi de la jungle' ?",
+        "options": ["Léopard", "Gorille", "Lion", "Éléphant", "Panthère"],
+        "correct_answer": "Lion"
+    },
+    {
+        "question": "Quelle est la devise du Royaume-Uni ?",
+        "options": ["Dollar", "Euro", "Livre sterling", "Yen", "Franc"],
+        "correct_answer": "Livre sterling"
+    },
+    {
+        "question": "Quel est l'océan le plus vaste du monde ?",
+        "options": ["Atlantique", "Indien", "Pacifique", "Arctique", "Austral"],
+        "correct_answer": "Pacifique"
+    },
+    {
+        "question": "Quelle est la capitale de l’Argentine ?",
+        "options": ["Lima", "Bogotá", "Buenos Aires", "Santiago", "Caracas"],
+        "correct_answer": "Buenos Aires"
+    },
+    {
+        "question": "Qui a écrit 'Le Petit Prince' ?",
+        "options": ["Victor Hugo", "Antoine de Saint-Exupéry", "Gustave Flaubert", "Albert Camus", "Marcel Proust"],
+        "correct_answer": "Antoine de Saint-Exupéry"
+    },
+    {
+        "question": "Quel est le plus grand désert du monde ?",
+        "options": ["Gobi", "Sahara", "Désert d'Arabie", "Antarctique", "Kalahari"],
+        "correct_answer": "Antarctique"
+    },
+    {
+        "question": "Quel est l'animal emblème de la Chine ?",
+        "options": ["Tigre", "Dragon", "Panda", "Grue", "Serpent"],
+        "correct_answer": "Panda"
+    },
+    {
+        "question": "Quel est le plus grand organe interne du corps humain ?",
+        "options": ["Poumons", "Cœur", "Foie", "Estomac", "Reins"],
+        "correct_answer": "Foie"
+    },
+    {
+        "question": "Quel est le plus haut sommet du monde ?",
+        "options": ["K2", "Mont Kilimandjaro", "Mont Blanc", "Mont Everest", "Mont McKinley"],
+        "correct_answer": "Mont Everest"
+    },
+    {
+        "question": "Quel pays a une feuille d'érable sur son drapeau ?",
+        "options": ["États-Unis", "Brésil", "Japon", "Canada", "Mexique"],
+        "correct_answer": "Canada"
+    },
+    {
+        "question": "Qui est le fondateur de Microsoft ?",
+        "options": ["Steve Jobs", "Mark Zuckerberg", "Bill Gates", "Elon Musk", "Jeff Bezos"],
+        "correct_answer": "Bill Gates"
+    },
+    {
+        "question": "Quel est le plus gros oiseau incapable de voler ?",
+        "options": ["Pélican", "Autruche", "Pingouin", "Aigle", "Dodo"],
+        "correct_answer": "Autruche"
+    },
+    {
+        "question": "Quel pays est célèbre pour ses tulipes ?",
+        "options": ["France", "Belgique", "Pays-Bas", "Danemark", "Suisse"],
+        "correct_answer": "Pays-Bas"
+    },
+    {
+        "question": "Quelle est la monnaie du Japon ?",
+        "options": ["Dollar", "Euro", "Yuan", "Yen", "Won"],
+        "correct_answer": "Yen"
+    },
+    {
+        "question": "Dans quel sport utilise-t-on une raquette ?",
+        "options": ["Football", "Boxe", "Tennis", "Golf", "Rugby"],
+        "correct_answer": "Tennis"
+    },
+    {
+        "question": "Quelle est la capitale de l’Égypte ?",
+        "options": ["Le Caire", "Alexandrie", "Louxor", "Assouan", "Gizeh"],
+        "correct_answer": "Le Caire"
+    },
+    {
+        "question": "Quel est le symbole chimique de l’or ?",
+        "options": ["Ag", "Fe", "Au", "Pt", "Hg"],
+        "correct_answer": "Au"
+    },
+    {
+        "question": "Quelle est la capitale du Portugal ?",
+        "options": ["Porto", "Madrid", "Lisbonne", "Séville", "Barcelone"],
+        "correct_answer": "Lisbonne"
+    },
+    {
+        "question": "Quel animal est connu pour se rouler en boule pour se protéger ?",
+        "options": ["Hérisson", "Lapin", "Chat", "Renard", "Furet"],
+        "correct_answer": "Hérisson"
+    },
+    {
+        "question": "Quelle est la boisson traditionnelle japonaise servie chaude ?",
+        "options": ["Whisky", "Saké", "Rhum", "Bière", "Vodka"],
+        "correct_answer": "Saké"
+    },
+    {
+        "question": "Quel gaz est utilisé pour gonfler les ballons qui flottent ?",
+        "options": ["Oxygène", "Hydrogène", "Hélium", "Azote", "Dioxyde de carbone"],
+        "correct_answer": "Hélium"
+    },
+    {
+        "question": "Quelle est la plus petite planète du système solaire ?",
+        "options": ["Mars", "Neptune", "Mercure", "Pluton", "Terre"],
+        "correct_answer": "Mercure"
+    },
+    {
+        "question": "Quelle ville est surnommée 'La Ville Lumière' ?",
+        "options": ["Rome", "New York", "Paris", "Madrid", "Berlin"],
+        "correct_answer": "Paris"
+    },
+    {
+        "question": "Qui a peint 'Les Tournesols' ?",
+        "options": ["Claude Monet", "Pablo Picasso", "Vincent Van Gogh", "Paul Cézanne", "Henri Matisse"],
+        "correct_answer": "Vincent Van Gogh"
+    },
+    {
+        "question": "Quel est l'ingrédient principal du houmous ?",
+        "options": ["Avoine", "Pois chiche", "Lentille", "Riz", "Maïs"],
+        "correct_answer": "Pois chiche"
+    },
+    {
+        "question": "Quelle est la capitale de l’Inde ?",
+        "options": ["Bombay", "New Delhi", "Bangalore", "Calcutta", "Jaipur"],
+        "correct_answer": "New Delhi"
+    },
+    {
+        "question": "Quel animal peut changer de couleur pour se camoufler ?",
+        "options": ["Iguane", "Lézard", "Caméléon", "Serpent", "Gecko"],
+        "correct_answer": "Caméléon"
+    },
+    {
+        "question": "Quelle est la plus grande chaîne de montagnes du monde ?",
+        "options": ["Alpes", "Himalaya", "Rocheuses", "Andes", "Atlas"],
+        "correct_answer": "Himalaya"
+    },
+    {
+        "question": "Quelle est la capitale de la Grèce ?",
+        "options": ["Athènes", "Thessalonique", "Rhodes", "Patras", "Corfou"],
+        "correct_answer": "Athènes"
+    },
+    {
+        "question": "Quel est l'animal terrestre le plus lent ?",
+        "options": ["Tortue", "Limace", "Paresseux", "Escargot", "Koala"],
+        "correct_answer": "Paresseux"
+    },
+    {
+        "question": "Qui a fondé l'empire mongol ?",
+        "options": ["Attila", "Gengis Khan", "Alexandre le Grand", "Charlemagne", "Napoléon"],
+        "correct_answer": "Gengis Khan"
+    },
+    {
+        "question": "Dans quel pays se trouve la Tour Eiffel ?",
+        "options": ["Allemagne", "Belgique", "Espagne", "France", "Italie"],
+        "correct_answer": "France"
+    },
+    {
+        "question": "Combien de pattes a une araignée ?",
+        "options": ["4", "6", "8", "10", "12"],
+        "correct_answer": "8"
+    },
+    {
+        "question": "Quel mammifère pond des œufs ?",
+        "options": ["Kangourou", "Ornithorynque", "Hérisson", "Chien de prairie", "Chauve-souris"],
+        "correct_answer": "Ornithorynque"
+    },
+    {
+        "question": "Quelle est la capitale du Brésil ?",
+        "options": ["Rio de Janeiro", "São Paulo", "Brasilia", "Salvador", "Recife"],
+        "correct_answer": "Brasilia"
+    },
+    {
+        "question": "Quelle est la capitale de l'Islande ?",
+        "options": ["Oslo", "Stockholm", "Reykjavik", "Copenhague", "Helsinki"],
+        "correct_answer": "Reykjavik"
+    },
+    {
+        "question": "Quel est l'élément chimique représenté par 'O' dans le tableau périodique ?",
+        "options": ["Or", "Oxygène", "Osmium", "Ozone", "Ortho"],
+        "correct_answer": "Oxygène"
+    },
+    {
+        "question": "Quelle couleur obtient-on en mélangeant du rouge et du blanc ?",
+        "options": ["Orange", "Violet", "Rose", "Marron", "Gris"],
+        "correct_answer": "Rose"
+    },
+    {
+        "question": "Quelle est la devise utilisée en Russie ?",
+        "options": ["Euro", "Dollar", "Rouble", "Yuan", "Livre sterling"],
+        "correct_answer": "Rouble"
+    },
+    {
+        "question": "Quelle est la plus grande île des Caraïbes ?",
+        "options": ["Porto Rico", "Cuba", "Jamaïque", "Haïti", "République dominicaine"],
+        "correct_answer": "Cuba"
+    },
+    {
+        "question": "Quel est le plus grand lac d’eau douce du monde par volume ?",
+        "options": ["Lac Baïkal", "Lac Supérieur", "Lac Victoria", "Lac Tanganyika", "Lac Michigan"],
+        "correct_answer": "Lac Baïkal"
+    },
+    {
+        "question": "Quel est l’animal terrestre le plus grand au monde ?",
+        "options": ["Girafe", "Ours polaire", "Éléphant d’Afrique", "Rhinocéros blanc", "Hippopotame"],
+        "correct_answer": "Éléphant d’Afrique"
+    },
+    {
+        "question": "Quel pays est le plus peuplé d’Afrique ?",
+        "options": ["Afrique du Sud", "Égypte", "Nigeria", "Kenya", "Éthiopie"],
+        "correct_answer": "Nigeria"
+    },
+    {
+        "question": "Quelle est la plus grande ville de Turquie ?",
+        "options": ["Ankara", "Izmir", "Istanbul", "Antalya", "Adana"],
+        "correct_answer": "Istanbul"
+    },
+    {
+        "question": "Quelle mer borde la côte Est de l’Espagne ?",
+        "options": ["Mer du Nord", "Mer Rouge", "Mer Méditerranée", "Mer Noire", "Mer Caspienne"],
+        "correct_answer": "Mer Méditerranée"
+    },
+    {
+        "question": "Quel est l’os le plus long du corps humain ?",
+        "options": ["Tibia", "Humérus", "Radius", "Fémur", "Cubitus"],
+        "correct_answer": "Fémur"
+    },
+    {
+        "question": "Quel pays a pour capitale Helsinki ?",
+        "options": ["Suède", "Finlande", "Norvège", "Danemark", "Estonie"],
+        "correct_answer": "Finlande"
+    },
+    {
+        "question": "Quel est l'animal le plus rapide dans les airs ?",
+        "options": ["Faucon pèlerin", "Aigle royal", "Hirondelle", "Albatros", "Goéland"],
+        "correct_answer": "Faucon pèlerin"
+    },
+    {
+        "question": "Quelle ville est célèbre pour son carnaval et son Christ Rédempteur ?",
+        "options": ["Buenos Aires", "Mexico", "Rio de Janeiro", "La Havane", "Lima"],
+        "correct_answer": "Rio de Janeiro"
+    },
+    {
+        "question": "Quelle est la langue officielle du Mexique ?",
+        "options": ["Portugais", "Anglais", "Espagnol", "Italien", "Français"],
+        "correct_answer": "Espagnol"
+    },
+    {
+        "question": "Quelle est la plus grande espèce de requin ?",
+        "options": ["Requin blanc", "Requin-tigre", "Requin-marteau", "Requin-baleine", "Requin-citron"],
+        "correct_answer": "Requin-baleine"
+    },
+    {
+        "question": "Quel est le plus long fleuve d'Afrique ?",
+        "options": ["Nil", "Congo", "Zambèze", "Limpopo", "Sénégal"],
+        "correct_answer": "Nil"
+    },
+    {
+        "question": "Quel fruit est utilisé pour faire du cidre ?",
+        "options": ["Poire", "Cerise", "Pomme", "Orange", "Raisin"],
+        "correct_answer": "Pomme"
+    },
+    {
+        "question": "Quelle ville est connue comme 'la ville de l'amour' ?",
+        "options": ["Venise", "Paris", "Rome", "Florence", "Barcelone"],
+        "correct_answer": "Paris"
+    },
+    {
+        "question": "Quel élément chimique est utilisé pour faire des ballons dirigeables ?",
+        "options": ["Oxygène", "Hélium", "Azote", "Hydrogène", "Dioxyde de carbone"],
+        "correct_answer": "Hélium"
+    },
+    {
+        "question": "Quelle est la monnaie utilisée en Suisse ?",
+        "options": ["Euro", "Franc suisse", "Couronne suédoise", "Livre sterling", "Yen"],
+        "correct_answer": "Franc suisse"
+    },
+    {
+        "question": "Quelle planète est la plus grande de notre système solaire ?",
+        "options": ["Terre", "Saturne", "Neptune", "Jupiter", "Uranus"],
+        "correct_answer": "Jupiter"
+    },
+    {
+        "question": "Quel est le plus grand océan sur Terre ?",
+        "options": ["Atlantique", "Pacifique", "Indien", "Arctique", "Austral"],
+        "correct_answer": "Pacifique"
+    },
+    {
+        "question": "Quel pays est célèbre pour ses pyramides antiques ?",
+        "options": ["Grèce", "Égypte", "Italie", "Pérou", "Chine"],
+        "correct_answer": "Égypte"
+    },
+    {
+        "question": "Quelle couleur obtient-on en mélangeant du rouge et du bleu ?",
+        "options": ["Rose", "Violet", "Orange", "Marron", "Vert"],
+        "correct_answer": "Violet"
+    },
+    {
+        "question": "Qui est l'auteur de la série de romans 'Le Seigneur des Anneaux' ?",
+        "options": ["George R.R. Martin", "J.R.R. Tolkien", "C.S. Lewis", "J.K. Rowling", "Stephen King"],
+        "correct_answer": "J.R.R. Tolkien"
+    },
+    {
+        "question": "Quelle est la capitale de la Corée du Sud ?",
+        "options": ["Pékin", "Tokyo", "Séoul", "Hanoï", "Taipei"],
+        "correct_answer": "Séoul"
+    },
+    {
+        "question": "Quel fruit est aussi appelé 'fruit du dragon' ?",
+        "options": ["Litchi", "Mangoustan", "Pitaya", "Papaye", "Kumquat"],
+        "correct_answer": "Pitaya"
+    },
+    {
+        "question": "Quel est l'élément chimique dont le symbole est 'Fe' ?",
+        "options": ["Fluor", "Fer", "Phosphore", "Francium", "Ferme"],
+        "correct_answer": "Fer"
+    },
+    {
+        "question": "Quel animal est le plus connu pour son camouflage ?",
+        "options": ["Lézard", "Poisson-globe", "Caméléon", "Poulpe", "Crabe"],
+        "correct_answer": "Caméléon"
+    },
+    {
+        "question": "Quelle est la plus haute montagne d'Europe ?",
+        "options": ["Mont Blanc", "Mont Rose", "Cervin", "Mont Elbrouz", "Aiguille du Midi"],
+        "correct_answer": "Mont Blanc"
+    },
+    {
+        "question": "Quel est l’animal le plus grand du règne marin ?",
+        "options": ["Orque", "Requin blanc", "Cachalot", "Baleine bleue", "Dauphin"],
+        "correct_answer": "Baleine bleue"
+    },
+    {
+        "question": "Quel pays est célèbre pour sa tour penchée ?",
+        "options": ["Italie", "Espagne", "France", "Belgique", "Allemagne"],
+        "correct_answer": "Italie"
+    },
+    {
+        "question": "Quelle est la capitale de la Norvège ?",
+        "options": ["Copenhague", "Oslo", "Stockholm", "Helsinki", "Reykjavik"],
+        "correct_answer": "Oslo"
+    },
+    {
+        "question": "Quel sport se pratique sur la glace avec un palet et des crosses ?",
+        "options": ["Football", "Rugby", "Hockey sur glace", "Curling", "Tennis"],
+        "correct_answer": "Hockey sur glace"
+    },
+    {
+        "question": "Quel est l'animal le plus dangereux de l'océan ?",
+        "options": ["Méduse-boîte", "Requin", "Serpent de mer", "Crocodile marin", "Piranha"],
+        "correct_answer": "Méduse-boîte"
+    },
+    {
+        "question": "Quel est le plus grand mammifère carnivore terrestre ?",
+        "options": ["Loup", "Lion", "Tigre", "Ours polaire", "Léopard"],
+        "correct_answer": "Ours polaire"
+    },
+    {
+        "question": "Quel pays est surnommé 'l'Hexagone' ?",
+        "options": ["Italie", "Espagne", "France", "Allemagne", "Grèce"],
+        "correct_answer": "France"
+    },
+    {
+        "question": "Quelle est la capitale du Chili ?",
+        "options": ["Lima", "Buenos Aires", "Santiago", "Montevideo", "Bogota"],
+        "correct_answer": "Santiago"
+    },
+    {
+        "question": "Quel est le métal le plus utilisé pour fabriquer des câbles électriques ?",
+        "options": ["Aluminium", "Or", "Cuivre", "Titane", "Nickel"],
+        "correct_answer": "Cuivre"
+    },
+    {
+        "question": "Quel pays est célèbre pour ses montres et ses chocolats ?",
+        "options": ["Belgique", "Allemagne", "France", "Suisse", "Autriche"],
+        "correct_answer": "Suisse"
+    },
+    {
+        "question": "Quel est l’animal marin avec 8 tentacules ?",
+        "options": ["Pieuvre", "Calamar", "Étoile de mer", "Méduses", "Hippocampe"],
+        "correct_answer": "Pieuvre"
+    },
+    {
+        "question": "Quel oiseau est un symbole de sagesse dans la mythologie grecque ?",
+        "options": ["Aigle", "Corbeau", "Chouette", "Colombe", "Paon"],
+        "correct_answer": "Chouette"
+    },
+    {
+        "question": "Quel est l’animal le plus fort pour sa taille ?",
+        "options": ["Fourmi", "Abeille", "Grenouille", "Araignée", "Souris"],
+        "correct_answer": "Fourmi"
+    },
+    {
+        "question": "Quelle est la monnaie utilisée en Inde ?",
+        "options": ["Dollar", "Euro", "Roupie", "Yen", "Livre sterling"],
+        "correct_answer": "Roupie"
+    },
+    {
+        "question": "Quel pays est connu pour ses samouraïs ?",
+        "options": ["Chine", "Corée du Sud", "Japon", "Thaïlande", "Vietnam"],
+        "correct_answer": "Japon"
+    },
+    {
+        "question": "Quelle planète est surnommée 'la planète bleue' ?",
+        "options": ["Mars", "Terre", "Neptune", "Uranus", "Pluton"],
+        "correct_answer": "Terre"
+    },
+    {
+        "question": "Qui a peint 'La Nuit étoilée' ?",
+        "options": ["Claude Monet", "Pablo Picasso", "Vincent Van Gogh", "Salvador Dalí", "Paul Gauguin"],
+        "correct_answer": "Vincent Van Gogh"
+    },
+    {
+        "question": "Quelle ville italienne est construite sur des canaux ?",
+        "options": ["Florence", "Rome", "Milan", "Venise", "Naples"],
+        "correct_answer": "Venise"
+    },
+    {
+        "question": "Quel sport se joue avec un volant et des raquettes ?",
+        "options": ["Squash", "Tennis de table", "Badminton", "Tennis", "Cricket"],
+        "correct_answer": "Badminton"
+    },
+    {
+        "question": "Quel est l’élément chimique le plus léger ?",
+        "options": ["Hélium", "Carbone", "Oxygène", "Hydrogène", "Lithium"],
+        "correct_answer": "Hydrogène"
+    },
+    {
+        "question": "Quelle est la langue la plus parlée en Afrique du Sud ?",
+        "options": ["Espagnol", "Swahili", "Zoulou", "Xhosa", "Anglais"],
+        "correct_answer": "Zoulou"
+    },
+    {
+        "question": "Quelle mer borde la côte ouest de l’Italie ?",
+        "options": ["Mer Méditerranée", "Mer du Nord", "Mer Tyrrhénienne", "Mer Rouge", "Mer Baltique"],
+        "correct_answer": "Mer Tyrrhénienne"
+    },
+    {
+        "question": "Quelle est la capitale de l’Espagne ?",
+        "options": ["Barcelone", "Valence", "Madrid", "Séville", "Bilbao"],
+        "correct_answer": "Madrid"
+    },
+    {
+        "question": "Quelle montagne est située à la frontière entre la France et l’Italie ?",
+        "options": ["Mont Cervin", "Mont Rose", "Mont Blanc", "Mont Everest", "Mont Elbrouz"],
+        "correct_answer": "Mont Blanc"
+    },
+    {
+        "question": "Quel pays a pour capitale Canberra ?",
+        "options": ["Nouvelle-Zélande", "Afrique du Sud", "Australie", "Papouasie-Nouvelle-Guinée", "Fidji"],
+        "correct_answer": "Australie"
+    },
+    {
+        "question": "Quelle est la monnaie de la Chine ?",
+        "options": ["Dollar", "Yuan", "Yen", "Won", "Rouble"],
+        "correct_answer": "Yuan"
+    },
+    {
+        "question": "Quel est l’animal emblème de l’Inde ?",
+        "options": ["Tigre", "Éléphant", "Lion", "Cobra", "Paon"],
+        "correct_answer": "Tigre"
+    },
+    {
+        "question": "Quel est l’aliment principal des pandas géants ?",
+        "options": ["Bananes", "Feuilles d’eucalyptus", "Herbe", "Bambou", "Noix de coco"],
+        "correct_answer": "Bambou"
+    },
+    {
+        "question": "Quelle est la couleur de l’étoile la plus chaude ?",
+        "options": ["Rouge", "Orange", "Jaune", "Bleue", "Blanche"],
+        "correct_answer": "Bleue"
+    },
+    {
+        "question": "Quel pays est le plus grand producteur de café au monde ?",
+        "options": ["Colombie", "Viêt Nam", "Brésil", "Éthiopie", "Indonésie"],
+        "correct_answer": "Brésil"
+    },
+    {
+        "question": "Quel est l’organe principal du système circulatoire ?",
+        "options": ["Poumons", "Cerveau", "Cœur", "Rein", "Foie"],
+        "correct_answer": "Cœur"
+    },
+    {
+        "question": "Quelle ville est surnommée 'La Grosse Pomme' ?",
+        "options": ["Los Angeles", "Chicago", "New York", "San Francisco", "Miami"],
+        "correct_answer": "New York"
+    },
+    {
+        "question": "Quel est le plus grand pays du monde par superficie ?",
+        "options": ["Chine", "États-Unis", "Canada", "Russie", "Brésil"],
+        "correct_answer": "Russie"
+    },
+    {
+        "question": "Quel est l’océan qui borde l’est de l’Afrique ?",
+        "options": ["Atlantique", "Pacifique", "Indien", "Arctique", "Austral"],
+        "correct_answer": "Indien"
+    },
+    {
+        "question": "Quel est l’ingrédient principal du tofu ?",
+        "options": ["Riz", "Haricots noirs", "Soja", "Blé", "Pois chiche"],
+        "correct_answer": "Soja"
+    },
+    {
+        "question": "Quel sport est souvent associé à Wimbledon ?",
+        "options": ["Golf", "Football", "Cricket", "Tennis", "Rugby"],
+        "correct_answer": "Tennis"
+    },
+    {
+        "question": "Quelle est la ville la plus peuplée du monde ?",
+        "options": ["Tokyo", "New York", "Shanghai", "Mumbai", "Mexico"],
+        "correct_answer": "Tokyo"
+    },
+    {
+        "question": "Quel animal est le symbole des États-Unis ?",
+        "options": ["Ours polaire", "Lion", "Aigle à tête blanche", "Loup", "Renard"],
+        "correct_answer": "Aigle à tête blanche"
+    },
+    {
+        "question": "Quelle planète est la plus éloignée du Soleil ?",
+        "options": ["Saturne", "Uranus", "Neptune", "Pluton", "Jupiter"],
+        "correct_answer": "Neptune"
+    },
+    {
+        "question": "Quelle est la capitale du Kenya ?",
+        "options": ["Kampala", "Dar es Salam", "Addis-Abeba", "Nairobi", "Mogadiscio"],
+        "correct_answer": "Nairobi"
+    },
+    {
+        "question": "Quel pays est célèbre pour le fromage et le chocolat ?",
+        "options": ["Belgique", "Suisse", "France", "Italie", "Pays-Bas"],
+        "correct_answer": "Suisse"
+    },
+    {
+        "question": "Quelle est la langue la plus parlée au Brésil ?",
+        "options": ["Espagnol", "Portugais", "Français", "Italien", "Anglais"],
+        "correct_answer": "Portugais"
+    },
+    {
+        "question": "Quel sport est joué avec une balle orange et un panier ?",
+        "options": ["Football", "Volleyball", "Basketball", "Handball", "Tennis"],
+        "correct_answer": "Basketball"
+    },
+    {
+        "question": "Quel est le plus petit océan du monde ?",
+        "options": ["Atlantique", "Indien", "Arctique", "Pacifique", "Austral"],
+        "correct_answer": "Arctique"
+    },
+    {
+        "question": "Quelle ville est connue pour le Big Ben ?",
+        "options": ["Paris", "New York", "Londres", "Sydney", "Berlin"],
+        "correct_answer": "Londres"
+    },
+    {
+        "question": "Quelle est la monnaie de l’Australie ?",
+        "options": ["Dollar australien", "Dollar américain", "Euro", "Livre sterling", "Yen"],
+        "correct_answer": "Dollar australien"
+    },
+    {
+        "question": "Quel est l’instrument de musique avec des cordes que l’on pince ?",
+        "options": ["Piano", "Flûte", "Guitare", "Trompette", "Batterie"],
+        "correct_answer": "Guitare"
+    },
+    {
+        "question": "Quelle est la capitale du Canada ?",
+        "options": ["Toronto", "Vancouver", "Ottawa", "Montréal", "Québec"],
+        "correct_answer": "Ottawa"
+    },
+    {
+        "question": "Quelle est la langue officielle de l’Allemagne ?",
+        "options": ["Néerlandais", "Allemand", "Danois", "Suédois", "Polonais"],
+        "correct_answer": "Allemand"
+    },
+    {
+        "question": "Quel est l’animal le plus rapide dans l’eau ?",
+        "options": ["Requin", "Dauphin", "Espadon voilier", "Thon", "Barracuda"],
+        "correct_answer": "Espadon voilier"
+    },
+    {
+        "question": "Quel est l'organe le plus important pour la respiration ?",
+        "options": ["Cœur", "Reins", "Poumons", "Foie", "Estomac"],
+        "correct_answer": "Poumons"
+    },
+    {
+        "question": "Quelle est la plus grande forêt tropicale du monde ?",
+        "options": ["Taïga", "Forêt amazonienne", "Forêt du Congo", "Forêt boréale", "Forêt des Landes"],
+        "correct_answer": "Forêt amazonienne"
+    },
+    {
+        "question": "Quel est le plus grand continent en superficie ?",
+        "options": ["Afrique", "Amérique du Nord", "Europe", "Asie", "Antarctique"],
+        "correct_answer": "Asie"
+    },
+    {
+        "question": "Quelle est la capitale de l’Irlande ?",
+        "options": ["Belfast", "Cork", "Galway", "Dublin", "Limerick"],
+        "correct_answer": "Dublin"
+    },
+    {
+        "question": "Quelle est la langue officielle de la Chine ?",
+        "options": ["Cantonais", "Anglais", "Mandarin", "Japonais", "Coréen"],
+        "correct_answer": "Mandarin"
+    },
+    {
+        "question": "Quel pays est connu pour avoir construit le Colisée ?",
+        "options": ["Grèce", "Espagne", "Italie", "Égypte", "Turquie"],
+        "correct_answer": "Italie"
+    },
+    {
+        "question": "Quelle est la plus grande île d’Océanie ?",
+        "options": ["Nouvelle-Zélande", "Fidji", "Papouasie-Nouvelle-Guinée", "Australie", "Tonga"],
+        "correct_answer": "Australie"
+    },
+    {
+        "question": "Quelle est la boisson nationale de l’Écosse ?",
+        "options": ["Vodka", "Rhum", "Whisky", "Saké", "Tequila"],
+        "correct_answer": "Whisky"
+    },
+    {
+        "question": "Quel animal est célèbre pour sa lenteur extrême ?",
+        "options": ["Tortue", "Limace", "Paresseux", "Escargot", "Serpent"],
+        "correct_answer": "Paresseux"
+    },
+    {
+        "question": "Quelle est la ville principale de la Silicon Valley ?",
+        "options": ["Los Angeles", "San Francisco", "Seattle", "Austin", "Boston"],
+        "correct_answer": "San Francisco"
+    },
+    {
+        "question": "Quelle est la capitale de l’Islande ?",
+        "options": ["Oslo", "Stockholm", "Reykjavik", "Copenhague", "Helsinki"],
+        "correct_answer": "Reykjavik"
+    }
+]

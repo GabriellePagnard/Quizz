@@ -1,4 +1,4 @@
-// script.js
+// app.js
 
 const questions = [
     {
