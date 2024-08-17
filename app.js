@@ -51,6 +51,7 @@ function checkAnswer(selectedOption, button) {
     // Vérifier si la réponse est correcte
     if (selectedOption === correctAnswer) {
         button.classList.add('bg-green-500', 'text-white');
+        score++; // Incrémentation du score si la réponse est correcte
     } else {
         button.classList.add('bg-red-500', 'text-white');
     }
