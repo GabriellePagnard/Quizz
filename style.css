@@ -1,23 +1,26 @@
+/* Police utilisée pour l'ensemble du site */
 body {
     font-family: 'Inter', sans-serif;
 }
 
+/* Classe cachée pour masquer les éléments lorsqu'ils ne sont pas affichés */
 .hidden {
     display: none;
 }
 
-/* Style des boutons d'option */
+/* Style des boutons d'option pour les réponses */
 .option-button {
     width: 100%;
     font-size: 1rem;
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
+/* Effet visuel lorsque l'utilisateur survole les boutons */
 .option-button:hover {
     transform: translateY(-3px);
 }
 
-/* Ajustement pour les petits écrans */
+/* Ajustement pour les petits écrans (smartphones et tablettes) */
 @media (max-width: 768px) {
     .option-button {
         font-size: 1.2rem;
@@ -29,11 +32,12 @@ body {
     }
 }
 
-/* Animation d'apparition pour le quiz container */
+/* Animation pour l'apparition du conteneur du quiz */
 #quiz-container {
     animation: fadeInUp 0.8s ease-out;
 }
 
+/* Définition de l'animation fadeInUp pour l'effet de montée avec opacité */
 @keyframes fadeInUp {
     from {
         opacity: 0;
@@ -45,11 +49,12 @@ body {
     }
 }
 
-/* Animation pour le score final */
+/* Animation pour l'affichage de la fenêtre modale du score */
 #result-modal .bg-white {
     animation: zoomIn 0.5s ease-out forwards;
 }
 
+/* Définition de l'animation zoomIn pour l'effet de zoom */
 @keyframes zoomIn {
     from {
         transform: scale(0.8);
