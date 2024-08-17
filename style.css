@@ -6,3 +6,21 @@ body {
     display: none;
 }
 
+/* Style des boutons d'option pour s'assurer qu'ils prennent toute la largeur sur mobile */
+.option-button {
+    width: 100%;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+/* Ajustement pour les petits écrans */
+@media (max-width: 768px) {
+    .option-button {
+        font-size: 1.2rem; /* Agrandir un peu les boutons pour les rendre plus faciles à cliquer */
+        padding: 12px;
+    }
+
+    #quiz-container {
+        padding: 16px;
+    }
+}

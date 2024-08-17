@@ -1,115 +1,96 @@
-// app.js
-
-const questions = [
-    {
-        question: "Quelle est la capitale de la France ?",
-        answers: [
-            { text: "Paris", correct: true },
-            { text: "Londres", correct: false },
-            { text: "Berlin", correct: false },
-            { text: "Madrid", correct: false },
-            { text: "Rome", correct: false },
-        ]
-    },
-    // Ajoutez 19 autres questions ici
-    {
-        question: "Quelle est la plus grande planète du système solaire ?",
-        answers: [
-            { text: "Jupiter", correct: true },
-            { text: "Saturne", correct: false },
-            { text: "Terre", correct: false },
-            { text: "Mars", correct: false },
-            { text: "Vénus", correct: false },
-        ]
-    },
-    // Ajoutez d'autres questions ici pour atteindre 20 questions au total
-];
+document.getElementById('start-quiz').addEventListener('click', startQuiz);
+document.getElementById('replay-quiz').addEventListener('click', restartQuiz);
 
 let currentQuestionIndex = 0;
 let score = 0;
+let totalQuestions = 0;
+let shuffledQuestions = [];
 
-const startButton = document.getElementById('start-button');
-const quizScreen = document.getElementById('quiz-screen');
-const questionContainer = document.getElementById('question-container');
-const questionElement = document.getElementById('question');
-const answersElement = document.getElementById('answers');
-const progressBar = document.getElementById('progress-bar');
-const endScreen = document.getElementById('end-screen');
-const finalScoreElement = document.getElementById('final-score');
-const restartButton = document.getElementById('restart-button');
+async function startQuiz() {
+    try {
+        document.getElementById('start-quiz').style.display = 'none';
+        document.getElementById('quiz-content').classList.remove('hidden');
+        document.getElementById('progress-bar-container').classList.remove('hidden');
 
-startButton.addEventListener('click', startQuiz);
-restartButton.addEventListener('click', restartQuiz);
-
-function startQuiz() {
-    startButton.parentElement.classList.add('hidden');
-    quizScreen.classList.remove('hidden');
-    currentQuestionIndex = 0;
-    score = 0;
-    showQuestion();
-    updateProgress();
+        const response = await fetch('questions.json');
+        if (!response.ok) throw new Error('Erreur lors du chargement des questions');
+        const questions = await response.json();
+        shuffledQuestions = questions.sort(() => Math.random() - 0.5).slice(0, 20);
+        totalQuestions = shuffledQuestions.length;
+        updateProgressBar();
+        displayQuestion();
+    } catch (error) {
+        console.error('Erreur lors du chargement des questions :', error);
+    }
 }
 
-function showQuestion() {
-    resetState();
-    const currentQuestion = questions[currentQuestionIndex];
-    questionElement.textContent = currentQuestion.question;
+function displayQuestion() {
+    if (!shuffledQuestions[currentQuestionIndex]) {
+        console.error('Erreur : Question ou réponses non définies.');
+        return;
+    }
 
-    currentQuestion.answers.forEach(answer => {
+    const questionElement = document.getElementById('question');
+    const optionsElement = document.getElementById('options');
+
+    questionElement.textContent = shuffledQuestions[currentQuestionIndex].question;
+    optionsElement.innerHTML = '';
+
+    shuffledQuestions[currentQuestionIndex].options.forEach(option => {
         const button = document.createElement('button');
-        button.textContent = answer.text;
-        button.classList.add('bg-blue-500', 'text-white', 'px-4', 'py-2', 'rounded', 'hover:bg-blue-600', 'w-full', 'text-left');
-        if (answer.correct) {
-            button.dataset.correct = answer.correct;
+        button.textContent = option;
+        button.classList.add('option-button', 'bg-gray-200', 'px-4', 'py-2', 'rounded', 'hover:bg-gray-300');
+        button.addEventListener('click', () => checkAnswer(option, button));
+        optionsElement.appendChild(button);
+    });
+}
+
+function checkAnswer(selectedOption, button) {
+    const correctAnswer = shuffledQuestions[currentQuestionIndex].correct_answer;
+
+    // Vérifier si la réponse est correcte
+    if (selectedOption === correctAnswer) {
+        button.classList.add('bg-green-500', 'text-white');
+    } else {
+        button.classList.add('bg-red-500', 'text-white');
+    }
+
+    // Désactiver tous les boutons après avoir sélectionné une réponse
+    document.querySelectorAll('.option-button').forEach(btn => {
+        btn.disabled = true;
+        if (btn.textContent === correctAnswer) {
+            btn.classList.add('bg-green-500', 'text-white');
         }
-        button.addEventListener('click', selectAnswer);
-        answersElement.appendChild(button);
-    });
-}
-
-function resetState() {
-    while (answersElement.firstChild) {
-        answersElement.removeChild(answersElement.firstChild);
-    }
-}
-
-function selectAnswer(e) {
-    const selectedButton = e.target;
-    const correct = selectedButton.dataset.correct === 'true';
-
-    if (correct) {
-        score++;
-    }
-
-    selectedButton.classList.add(correct ? 'bg-green-500' : 'bg-red-500');
-    Array.from(answersElement.children).forEach(button => {
-        button.classList.add(button.dataset.correct === 'true' ? 'bg-green-500' : 'bg-red-500');
-        button.disabled = true;
     });
 
+    // Attendre un moment avant de passer à la question suivante
     setTimeout(() => {
         currentQuestionIndex++;
-        if (currentQuestionIndex < questions.length) {
-            showQuestion();
-            updateProgress();
+        if (currentQuestionIndex < totalQuestions) {
+            updateProgressBar();
+            displayQuestion();
         } else {
-            endQuiz();
+            showFinalScore();
         }
     }, 1000);
 }
 
-function updateProgress() {
-    const progress = ((currentQuestionIndex + 1) / questions.length) * 100;
+function updateProgressBar() {
+    const progressBar = document.getElementById('progress-bar');
+    const progress = ((currentQuestionIndex + 1) / totalQuestions) * 100;
     progressBar.style.width = `${progress}%`;
 }
 
-function endQuiz() {
-    quizScreen.classList.add('hidden');
-    endScreen.classList.remove('hidden');
-    finalScoreElement.textContent = `Bravo ! Vous avez obtenu ${score} points sur ${questions.length} !`;
+function showFinalScore() {
+    document.getElementById('quiz-content').classList.add('hidden');
+    document.getElementById('progress-bar-container').classList.add('hidden');
+    document.getElementById('result-modal').classList.remove('hidden');
+    document.getElementById('final-score').textContent = `Votre score : ${score} / ${totalQuestions}`;
 }
 
 function restartQuiz() {
-    endScreen.classList.add('hidden');
-    startButton.parentElement.classList.remove('hidden');
+    currentQuestionIndex = 0;
+    score = 0;
+    document.getElementById('result-modal').classList.add('hidden');
+    startQuiz();
 }
